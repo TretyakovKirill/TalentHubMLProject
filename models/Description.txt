@@ -1,1 +1,1 @@
-
+В архивах Model_A.zip и Model_B.zip находятся веса моделей для датасетов BCI Competition IV 2a и 2b соответственно.
