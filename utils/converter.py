@@ -18,7 +18,7 @@ def convert_gdf_to_mat(
     :input_dir: Path to directory containing source GDF files.
     :output_dir: Path to directory where converted MAT files will be saved.
     :dataset_type: Type of BCI Competition dataset
-    :param data_type: Type of GDF files, "T" for train and "E" for eval dataset.
+    :data_type: Type of GDF files, "T" for train and "E" for eval dataset.
     """
     if dataset_type not in ['2a', '2b']:
         raise ValueError("Invalid dataset_type. Use '2a' or '2b'.")
