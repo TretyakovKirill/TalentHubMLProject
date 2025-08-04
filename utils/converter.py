@@ -13,9 +13,11 @@ def convert_gdf_to_mat(
         data_type: Literal['T', 'E'] = 'T'
     ) -> None:
     """
-    Converts GDF files to MAT
+    Converts GDF files from BCI Competition IV dataset to MAT format.
 
-    :param data_path: Path to GDF files.
+    :param input_dir: Path to directory containing source GDF files.
+    :param output_dir: Path to directory where converted MAT files will be saved.
+    :dataset_type: Type of BCI Competition dataset
     :param data_type: Type of GDF files, "T" for train and "E" for eval dataset.
     """
     if dataset_type not in ['2a', '2b']:
