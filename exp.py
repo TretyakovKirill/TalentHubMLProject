@@ -16,7 +16,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import cohen_kappa_score
 
-from utils import prepare_dataset, sr_augmentation
+from utils.utils import prepare_dataset, sr_augmentation
 from model import Model
 
 
